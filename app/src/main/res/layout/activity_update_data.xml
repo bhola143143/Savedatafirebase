@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateDataActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/updateBtn"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/top612"
+            android:text="@string/update_data4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstName"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/first_name3"
+            android:paddingStart="@dimen/left"
+            android:paddingLeft="@dimen/left"
+            android:paddingEnd="@dimen/right"
+            android:paddingRight="@dimen/right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastname"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height11"
+            android:layout_marginTop="@dimen/topp"
+            android:hint="@string/last_name3"
+            android:paddingStart="@dimen/left"
+            android:paddingLeft="@dimen/left"
+            android:paddingEnd="@dimen/right"
+            android:paddingRight="@dimen/right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstName" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/age"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height11"
+            android:layout_marginTop="@dimen/topp"
+            android:hint="@string/age4"
+            android:paddingStart="@dimen/left"
+            android:paddingLeft="@dimen/left"
+            android:paddingEnd="@dimen/right"
+            android:paddingRight="@dimen/right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lastname" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userName"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height11"
+            android:layout_marginTop="@dimen/margintop"
+            android:hint="@string/username3"
+            android:paddingStart="@dimen/left"
+            android:paddingLeft="@dimen/left"
+            android:paddingEnd="@dimen/right"
+            android:paddingRight="@dimen/right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop2"
+            android:text="@string/update"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size">30sp</dimen>
+    <dimen name="width">360dp</dimen>
+    <dimen name="height">60dp</dimen>
+    <dimen name="margintop">36dp</dimen>
+    <dimen name="start">0dp</dimen>
+    <dimen name="left">0dp</dimen>
+    <dimen name="margintop1">356dp</dimen>
+    <dimen name="margintop2">180dp</dimen>
+    <dimen name="height11">50dp</dimen>
+    <dimen name="topp">32dp</dimen>
+    <dimen name="height1">60dp</dimen>
+    <dimen name="margintop3">452dp</dimen>
+    <dimen name="margin">15dp</dimen>
+    <dimen name="top40">40dp</dimen>
+    <dimen name="marginstart">20dp</dimen>
+    <dimen name="marginleft">20dp</dimen>
+    <dimen name="start5">5dp</dimen>
+    <dimen name="left5">5dp</dimen>
+    <dimen name="top100">100dp</dimen>
+    <dimen name="right">0dp</dimen>
+    <dimen name="top612">612dp</dimen>
+</resources>

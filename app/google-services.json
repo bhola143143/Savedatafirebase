@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "737818123027",
+    "project_id": "savedatafirebase-326e8",
+    "storage_bucket": "savedatafirebase-326e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737818123027:android:aad71eac3e76c0e89498e6",
+        "android_client_info": {
+          "package_name": "com.example.savedatafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737818123027-0e238k9g84jtc2t2sjsv57tni7n5dauv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Ou5_bqq_nKJUrAZZ0zK2ZQbdTR6z9PI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737818123027-0e238k9g84jtc2t2sjsv57tni7n5dauv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
